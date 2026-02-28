@@ -18,5 +18,5 @@ To run the program you have to do the following:
 - for decryption:
     - get the message from the image.bmp and print the resulting string:
       ```
-      gcc -no-pie bitmap-decrypt.s -o bitmap-decrypt && ./bitmap-decrypt
+      gcc -no-pie bitmap_decrypt.s -o bitmap_decrypt && ./bitmap_decrypt
       ```
