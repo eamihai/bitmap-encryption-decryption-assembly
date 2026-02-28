@@ -9,8 +9,8 @@
 
 .text
     fname: .asciz "image.bmp"
-    .include "generateInitialBarcode.s"
-    .include "executeXOR.s"
+    .include "generate_initial_barcode.s"
+    .include "execute_xor.s"
     template: .asciz "%d"
     templateChar: .asciz "%c"
 

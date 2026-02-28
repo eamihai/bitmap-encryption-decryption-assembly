@@ -8,9 +8,9 @@
 
 .text
     inputString: .asciz "The quick brown fox jumps over the lazy dog"
-    .include "generateInitialBarcode.s"
-    .include "encodeRLE.s"
-    .include "executeXOR.s"
+    .include "generate_initial_barcode.s"
+    .include "encode_rle.s"
+    .include "execute_xor.s"
 
 .global main
 
