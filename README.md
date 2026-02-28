@@ -13,7 +13,7 @@ To run the program you have to do the following:
 - for encryption:
     - set the inputString in the bitmap.s and run the program to get the encoded message in the image.bmp:
       ```
-      gcc -no-pie bitmap-encrypt.s -o bitmap-encrypt && ./bitmap-encrypt
+      gcc -no-pie bitmap_encrypt.s -o bitmap_encrypt && ./bitmap_encrypt
       ```
 - for decryption:
     - get the message from the image.bmp and print the resulting string:
